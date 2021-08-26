@@ -1,4 +1,6 @@
 exports.config = {
+
+
     //
     // ====================
     // Runner Configuration
@@ -70,7 +72,7 @@ exports.config = {
     // Define all options that are relevant for the WebdriverIO instance here
     //
     // Level of logging verbosity: trace | debug | info | warn | error | silent
-    logLevel: 'trace',
+    logLevel: 'info',
     //
     // Set specific log levels per logger
     // loggers:
@@ -111,8 +113,7 @@ exports.config = {
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
 
-    services: ['selenium-standalone'],
-
+    services: ['chromedriver'],
 
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
@@ -223,16 +224,13 @@ exports.config = {
     /**
      * Function to be executed after a test (in Mocha/Jasmine).
      */
-
-    /*
-    async afterTest: function(test, context, { error, result, duration, passed, retries }) {
+    /*async afterTest: function(test, context, { error, result, duration, passed, retries }) {
         if (!passed) {
             await browser.takeScreenshot();
         }
     },
 
     */
-
     /**
      * Hook that gets executed after the suite has ended
      * @param {Object} suite suite details

@@ -1,30 +1,16 @@
 import assert from "assert";
 
-describe("Browser", function() {
+describe('Page', () => {
 
-    it("Tab title", function() {
-        browser.url("https://deepinspire.com/");
+    it('Check Title', () => {
+        browser.url('https://gmatclub.com/');
         browser.pause(2000);
-        let title = browser.getTitle();
-        assert.equal(title, "DeepInspire | Software Development & Product UX/UI Design");
+        //const title = browser.getTitle();
+        //console.log('Title is: ' + title);
+        assert.equal(browser.getTitle(), "GMAT Club Forum - Best GMAT Tests, Books, Courses, Discounts with over 1,000,000 members");
     })
 
-    /*
-
-    it("Header is displayed", function() {
 
 
-
-
-    })
-
-    it("Footer is displayed", function() {
-
-
-
-
-    })
-
-    */
 
 });
