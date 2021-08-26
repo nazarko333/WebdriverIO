@@ -1,0 +1,49 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1630006119995' stop='1630006135821'>
+    <name>Page</name>
+    <title>Page</title>
+    <test-cases>
+        <test-case start='1630006119996' status='failed' stop='1630006135820'>
+            <name>Check Title</name>
+            <title>Check Title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.159'/>
+            </parameters>
+            <steps>
+                <step start='1630006120000' status='passed' stop='1630006133784'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='169410fc-fbbb-45ec-ab0d-1dd102f3dd43-attachment.json' type='application/json' size='36'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1630006135798' status='passed' stop='1630006135809'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='dd5a54b1-2d0f-44b2-8879-4dae49f563d4-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>'GMAT Club Forum - Best GMAT Tests, Books, Courses, Discounts with over 1,000,000 members' == 'GMAT Club Forum - Best GMAT Tests, Books, Courses, Discounts with over 1, 000, 000 members'      
+                      actual expected
+                      
+                      'GMAT Club Forum - Best GMAT Tests, Books, Courses, Discounts with over 1, 000, 000 members'
+                      </message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: 'GMAT Club Forum - Best GMAT Tests, Books, Courses, Discounts with over 1,000,000 members' == 'GMAT Club Forum - Best GMAT Tests, Books, Courses, Discounts with over 1, 000, 000 members'
+                    at Context.&lt;anonymous> (F:\Programs\Install\MyPrograms\Programming\Settings\VisualStudioCode\Code\Projects\WebdriverIO\test\specs\/browser.js:10:16)
+                    at Context.executeSync (F:\Programs\Install\MyPrograms\Programming\Settings\VisualStudioCode\Code\Projects\WebdriverIO\node_modules\@wdio\sync\build\index.js:38:22)
+                    at F:\Programs\Install\MyPrograms\Programming\Settings\VisualStudioCode\Code\Projects\WebdriverIO\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
