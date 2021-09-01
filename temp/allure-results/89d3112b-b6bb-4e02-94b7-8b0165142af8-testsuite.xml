@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1630006173495' stop='1630006180133'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1630496101645' stop='1630496106256'>
     <name>Page</name>
     <title>Page</title>
     <test-cases>
-        <test-case start='1630006173496' status='passed' stop='1630006180132'>
+        <test-case start='1630496101646' status='passed' stop='1630496106255'>
             <name>Check Title</name>
             <title>Check Title</title>
             <labels>
@@ -15,19 +15,19 @@
                 <parameter kind='argument' name='browser' value='chrome-92.0.4515.159'/>
             </parameters>
             <steps>
-                <step start='1630006173499' status='passed' stop='1630006178105'>
+                <step start='1630496101647' status='passed' stop='1630496106243'>
                     <name>POST /session/:sessionId/url</name>
                     <title>POST /session/:sessionId/url</title>
                     <attachments>
-                        <attachment title='Request' source='9978148b-d7b8-4aa9-bc53-66f02bb57436-attachment.json' type='application/json' size='36'/>
+                        <attachment title='Request' source='fc6b6f89-4742-4756-b8a4-ae7ba2b2540b-attachment.json' type='application/json' size='36'/>
                     </attachments>
                     <steps/>
                 </step>
-                <step start='1630006180121' status='passed' stop='1630006180131'>
+                <step start='1630496106243' status='passed' stop='1630496106254'>
                     <name>GET /session/:sessionId/title</name>
                     <title>GET /session/:sessionId/title</title>
                     <attachments>
-                        <attachment title='Response' source='4bd97ca2-5575-470d-9096-de3e4e16139e-attachment.json' type='application/json' size='90'/>
+                        <attachment title='Response' source='f108290a-5905-47c5-bdc8-dd41c07a1c0f-attachment.json' type='application/json' size='90'/>
                     </attachments>
                     <steps/>
                 </step>
