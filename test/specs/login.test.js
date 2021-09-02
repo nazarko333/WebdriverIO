@@ -1,6 +1,4 @@
-import {
-    assert
-} from "chai";
+
 
 import login from "../pages/login.page"
 
