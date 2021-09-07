@@ -4,6 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
+        "api": "wdio api.wdio.js",
         "test": "npm run clean && npm run temp && wdio wdio.conf.js ",
         "clean": "rm -rf temp",
         "temp": "mkdir temp\\screenshots"
@@ -25,6 +26,7 @@
         "@babel/register": "^7.15.3",
         "@wdio/cli": "^7.11.1",
         "@wdio/sync": "^7.11.1",
+        "axios": "^0.21.4",
         "chai": "^4.3.4",
         "wdio": "^5.1.0",
         "webdriverio": "^7.11.1"

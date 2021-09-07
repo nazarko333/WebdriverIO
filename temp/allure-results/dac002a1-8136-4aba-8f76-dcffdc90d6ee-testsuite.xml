@@ -1,0 +1,42 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1631022498650' stop='1631022498948'>
+    <name>Test People</name>
+    <title>Test People</title>
+    <test-cases>
+        <test-case start='1631022498651' status='passed' stop='1631022498938'>
+            <name>Data</name>
+            <title>Data</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.159'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1631022498939' status='broken' stop='1631022498947'>
+            <name>Response is Array</name>
+            <title>Response is Array</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.159'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>object is not defined</message>
+                <stack-trace>ReferenceError: object is not defined
+                    at Context.&lt;anonymous> (F:\Programs\Install\MyPrograms\Programming\Settings\VisualStudioCode\Code\Projects\WebdriverIO\test\API\specs\/all-forums.test.js:23:39)
+                    at Context.executeSync (F:\Programs\Install\MyPrograms\Programming\Settings\VisualStudioCode\Code\Projects\WebdriverIO\node_modules\@wdio\sync\build\index.js:38:22)
+                    at F:\Programs\Install\MyPrograms\Programming\Settings\VisualStudioCode\Code\Projects\WebdriverIO\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

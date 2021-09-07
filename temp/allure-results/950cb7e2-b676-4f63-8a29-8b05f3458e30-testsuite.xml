@@ -1,0 +1,46 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1631022609058' stop='1631022609095'>
+    <name>Test People</name>
+    <title>Test People</title>
+    <test-cases>
+        <test-case start='1631022609059' status='passed' stop='1631022609082'>
+            <name>Data</name>
+            <title>Data</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.159'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1631022609083' status='failed' stop='1631022609094'>
+            <name>Response is Object</name>
+            <title>Response is Object</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.159'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected false to be true      
+                      actual expected
+                      
+                      falsetrue
+                      </message>
+                <stack-trace>AssertionError: expected false to be true
+                    at Context.&lt;anonymous> (F:\Programs\Install\MyPrograms\Programming\Settings\VisualStudioCode\Code\Projects\WebdriverIO\test\API\specs\/all-forums.test.js:24:16)
+                    at Context.executeSync (F:\Programs\Install\MyPrograms\Programming\Settings\VisualStudioCode\Code\Projects\WebdriverIO\node_modules\@wdio\sync\build\index.js:38:22)
+                    at F:\Programs\Install\MyPrograms\Programming\Settings\VisualStudioCode\Code\Projects\WebdriverIO\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,74 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1631025926514' stop='1631025926783'>
+    <name>Test People</name>
+    <title>Test People</title>
+    <test-cases>
+        <test-case start='1631025926514' status='passed' stop='1631025926767'>
+            <name>Data</name>
+            <title>Data</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.159'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1631025926768' status='passed' stop='1631025926769'>
+            <name>Response is Object</name>
+            <title>Response is Object</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.159'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1631025926769' status='passed' stop='1631025926770'>
+            <name>Object is not empty</name>
+            <title>Object is not empty</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.159'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1631025926770' status='failed' stop='1631025926783'>
+            <name>Elements are objects</name>
+            <title>Elements are objects</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.159'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected false to be true      
+                      actual expected
+                      
+                      falsetrue
+                      </message>
+                <stack-trace>AssertionError: expected false to be true
+                    at Context.&lt;anonymous> (F:\Programs\Install\MyPrograms\Programming\Settings\VisualStudioCode\Code\Projects\WebdriverIO\test\API\specs\/all-users.test.js:46:16)
+                    at Context.executeSync (F:\Programs\Install\MyPrograms\Programming\Settings\VisualStudioCode\Code\Projects\WebdriverIO\node_modules\@wdio\sync\build\index.js:38:22)
+                    at F:\Programs\Install\MyPrograms\Programming\Settings\VisualStudioCode\Code\Projects\WebdriverIO\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
