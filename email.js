@@ -1,6 +1,7 @@
 const nodemailer = require("nodemailer");
 const report = require("./temp/allure-report/widgets/summary.json");
 
+
 //console.log(report.statistic.total);
 
 const transporter = nodemailer.createTransport({
