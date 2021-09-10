@@ -5,10 +5,11 @@
     "main": "index.js",
     "scripts": {
         "api": "npm run clean && npm run temp && wdio api.wdio.js",
-        "test": "npm run clean && npm run temp && wdio wdio.conf.js && npm run report",
-        "report": "allure generate temp/allure-results -o temp/allure-report && allure open temp/allure-report",
+        "test": "npm run clean && npm run temp && wdio wdio.conf.js && npm run report ",
+        "report": "allure generate temp/allure-results -o temp/allure-report && allure open temp/allure-report && node email.js",
         "clean": "rm -rf temp",
         "temp": "mkdir temp\\screenshots"
+
     },
     "repository": {
         "type": "git",
