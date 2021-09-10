@@ -16,7 +16,7 @@ let mailOptions = {
     to: "nazarko333@gmail.com",
     subject: "Autotest results",
     //text: "Message",
-    html: `<div style="color:black; font-weight: bold">Total: ${report.statistic.total} </div>
+    html: `<div style="font-weight: bold">Total: ${report.statistic.total} </div>
           <div style="color:green">Passed: ${report.statistic.passed}</div>
           <div style="color:red">Failed: ${report.statistic.total - report.statistic.passed}</div>`
 
