@@ -1,5 +1,7 @@
 import axios from "axios";
 import { assert } from "chai";
+import { expect } from "chai";
+import { should } from "chai";
 import user from "../data/user.test";
 let respCreate;
 let id;
@@ -70,5 +72,13 @@ describe("Create and delete users", function() {
     it("Delete user check status text 'No Content'", function() {
         assert.equal(respDelete.headers["content-length"], 0);
     })
+
+
+    it("Chai", function() {
+        expect(respDelete).to.be.a('Object');
+
+    })
+
+
 
 })

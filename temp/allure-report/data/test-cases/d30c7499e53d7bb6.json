@@ -1,0 +1,58 @@
+{
+  "uid" : "d30c7499e53d7bb6",
+  "name" : "Create user status 201",
+  "fullName" : "Create and delete users.Create user status 201",
+  "historyId" : "8764b47b9eafc795e1b00eed471b3e75",
+  "time" : {
+    "start" : 1631273620537,
+    "stop" : 1631273620538,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Create and delete users"
+  }, {
+    "name" : "testClass",
+    "value" : "Create and delete users"
+  }, {
+    "name" : "testMethod",
+    "value" : "Create user status 201"
+  }, {
+    "name" : "package",
+    "value" : "Create and delete users"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.63"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d30c7499e53d7bb6.json",
+  "parameterValues" : [ "chrome-93.0.4577.63" ]
+}

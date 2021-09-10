@@ -4,8 +4,9 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "api": "wdio api.wdio.js",
-        "test": "npm run clean && npm run temp && wdio wdio.conf.js ",
+        "api": "npm run clean && npm run temp && wdio api.wdio.js",
+        "test": "npm run clean && npm run temp && wdio wdio.conf.js && npm run report",
+        "report": "allure generate temp/allure-results -o temp/allure-report && allure open temp/allure-report",
         "clean": "rm -rf temp",
         "temp": "mkdir temp\\screenshots"
     },
@@ -28,6 +29,7 @@
         "@wdio/sync": "^7.11.1",
         "axios": "^0.21.4",
         "chai": "^4.3.4",
+        "nodemailer": "^6.6.3",
         "wdio": "^5.1.0",
         "webdriverio": "^7.11.1"
     },

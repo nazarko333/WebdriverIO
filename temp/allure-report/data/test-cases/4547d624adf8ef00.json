@@ -1,0 +1,58 @@
+{
+  "uid" : "4547d624adf8ef00",
+  "name" : "Delete user",
+  "fullName" : "Create and delete users.Delete user",
+  "historyId" : "9f24ff973a0363bfd3a59ae4414fe168",
+  "time" : {
+    "start" : 1631273620540,
+    "stop" : 1631273620722,
+    "duration" : 182
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Create and delete users"
+  }, {
+    "name" : "testClass",
+    "value" : "Create and delete users"
+  }, {
+    "name" : "testMethod",
+    "value" : "Delete user"
+  }, {
+    "name" : "package",
+    "value" : "Create and delete users"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.63"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4547d624adf8ef00.json",
+  "parameterValues" : [ "chrome-93.0.4577.63" ]
+}

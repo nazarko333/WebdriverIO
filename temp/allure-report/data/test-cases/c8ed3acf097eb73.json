@@ -1,0 +1,58 @@
+{
+  "uid" : "c8ed3acf097eb73",
+  "name" : "Object is not empty",
+  "fullName" : "Test People.Object is not empty",
+  "historyId" : "ad80134aab5c7c33014facf3bef66560",
+  "time" : {
+    "start" : 1631273621271,
+    "stop" : 1631273621271,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Test People"
+  }, {
+    "name" : "testClass",
+    "value" : "Test People"
+  }, {
+    "name" : "testMethod",
+    "value" : "Object is not empty"
+  }, {
+    "name" : "package",
+    "value" : "Test People"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.63"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c8ed3acf097eb73.json",
+  "parameterValues" : [ "chrome-93.0.4577.63" ]
+}
