@@ -7,9 +7,8 @@
         "api": "npm run clean && npm run temp && wdio api.wdio.js",
         "test": "npm run clean && npm run temp && wdio wdio.conf.js && npm run report",
         "report": "allure generate temp/allure-results -o temp/allure-report && node email.js && allure open temp/allure-report",
-        "reportAzure": "allure generate temp\\allure-results -o temp\\allure-report && node email.js",
         "clean": "rm -rf temp",
-        "azure": "npm run temp && wdio wdio.conf.js && npm run reportAzure",
+        "azure": "npm run temp && wdio wdio.conf.js",
         "temp": "mkdir temp\\screenshots"
     },
     "repository": {
