@@ -1,5 +1,3 @@
-
-
 import login from "../pages/login.page"
 
 describe('Login', () => {
@@ -27,6 +25,7 @@ describe('Login', () => {
     it('Form-width', () => {
         login.formWidth();
     })
+
 
 
 
