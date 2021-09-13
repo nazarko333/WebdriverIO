@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1631273620278' stop='1631273620725'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1631296171134' stop='1631296172011'>
     <name>Create and delete users</name>
     <title>Create and delete users</title>
     <test-cases>
-        <test-case start='1631273620279' status='passed' stop='1631273620536'>
+        <test-case start='1631296171134' status='passed' stop='1631296171660'>
             <name>Create user</name>
             <title>Create user</title>
             <labels>
@@ -17,7 +17,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1631273620537' status='passed' stop='1631273620538'>
+        <test-case start='1631296171661' status='passed' stop='1631296171662'>
             <name>Create user status 201</name>
             <title>Create user status 201</title>
             <labels>
@@ -31,7 +31,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1631273620538' status='passed' stop='1631273620539'>
+        <test-case start='1631296171662' status='passed' stop='1631296171663'>
             <name>Create user status text 'Created'</name>
             <title>Create user status text 'Created'</title>
             <labels>
@@ -45,7 +45,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1631273620539' status='passed' stop='1631273620539'>
+        <test-case start='1631296171663' status='passed' stop='1631296171663'>
             <name>Create user content-type 'application/json; charset=utf-8'</name>
             <title>Create user content-type 'application/json; charset=utf-8'</title>
             <labels>
@@ -59,7 +59,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1631273620539' status='passed' stop='1631273620540'>
+        <test-case start='1631296171663' status='passed' stop='1631296171664'>
             <name>Create user check user name</name>
             <title>Create user check user name</title>
             <labels>
@@ -73,7 +73,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1631273620540' status='passed' stop='1631273620540'>
+        <test-case start='1631296171664' status='passed' stop='1631296171664'>
             <name>Create user check user job</name>
             <title>Create user check user job</title>
             <labels>
@@ -87,7 +87,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1631273620540' status='passed' stop='1631273620722'>
+        <test-case start='1631296171664' status='passed' stop='1631296172008'>
             <name>Delete user</name>
             <title>Delete user</title>
             <labels>
@@ -101,7 +101,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1631273620723' status='passed' stop='1631273620723'>
+        <test-case start='1631296172008' status='passed' stop='1631296172008'>
             <name>Delete user check status 204</name>
             <title>Delete user check status 204</title>
             <labels>
@@ -115,7 +115,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1631273620723' status='passed' stop='1631273620724'>
+        <test-case start='1631296172009' status='passed' stop='1631296172009'>
             <name>Delete user check status text 'No Content'</name>
             <title>Delete user check status text 'No Content'</title>
             <labels>
@@ -133,7 +133,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1631273620724' status='passed' stop='1631273620725'>
+        <test-case start='1631296172009' status='passed' stop='1631296172010'>
             <name>Chai</name>
             <title>Chai</title>
             <labels>
