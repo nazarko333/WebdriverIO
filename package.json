@@ -32,7 +32,8 @@
         "chai": "^4.3.4",
         "nodemailer": "^6.6.3",
         "wdio": "^5.1.0",
-        "webdriverio": "^7.11.1"
+        "webdriverio": "^7.11.1",
+        "yarn": "^1.22.11"
     },
     "devDependencies": {
         "@wdio/allure-reporter": "^7.10.1",
