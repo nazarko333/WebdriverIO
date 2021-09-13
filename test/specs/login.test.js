@@ -26,11 +26,4 @@ describe('Login', () => {
         login.formWidth();
     })
 
-
-
-
-
-
-
-
 });
