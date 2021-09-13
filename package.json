@@ -10,7 +10,6 @@
         "clean": "rm -rf temp",
         "azure": "npm run temp && wdio wdio.conf.js",
         "temp": "mkdir temp\\screenshots"
-
     },
     "repository": {
         "type": "git",
