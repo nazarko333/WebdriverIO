@@ -1,4 +1,4 @@
 export default {
     logoAlign: "start",
-    formWidth: "450px"
+    formWidth: "650px"
 }

@@ -18,13 +18,13 @@ describe('Login', () => {
         login.resendDisplayed();
     })
 
-    it('Login-in-center', () => {
-        login.logoAlignment();
-    })
+    // it('Login-in-center', () => {
+    //     login.logoAlignment();
+    // })
 
-    it('Form-width', () => {
-        login.formWidth();
-    })
+    // it('Form-width', () => {
+    //     login.formWidth();
+    // })
 
 
 
